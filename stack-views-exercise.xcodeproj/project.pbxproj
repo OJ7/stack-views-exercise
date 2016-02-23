@@ -12,8 +12,6 @@
 		2F331F861C73C4E8003A9595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F331F841C73C4E8003A9595 /* Main.storyboard */; };
 		2F331F881C73C4E8003A9595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F331F871C73C4E8003A9595 /* Assets.xcassets */; };
 		2F331F8B1C73C4E8003A9595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F331F891C73C4E8003A9595 /* LaunchScreen.storyboard */; };
-		2F331F961C73C4E9003A9595 /* stack_views_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F331F951C73C4E9003A9595 /* stack_views_exerciseTests.swift */; };
-		2F331FA11C73C4E9003A9595 /* stack_views_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F331FA01C73C4E9003A9595 /* stack_views_exerciseUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		2F331F8A1C73C4E8003A9595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F331F8C1C73C4E8003A9595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F331F911C73C4E9003A9595 /* stack-views-exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stack-views-exerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F331F951C73C4E9003A9595 /* stack_views_exerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack_views_exerciseTests.swift; sourceTree = "<group>"; };
-		2F331F971C73C4E9003A9595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F331F9C1C73C4E9003A9595 /* stack-views-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stack-views-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F331FA01C73C4E9003A9595 /* stack_views_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack_views_exerciseUITests.swift; sourceTree = "<group>"; };
-		2F331FA21C73C4E9003A9595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				2F331F7F1C73C4E8003A9595 /* stack-views-exercise */,
-				2F331F941C73C4E9003A9595 /* stack-views-exerciseTests */,
-				2F331F9F1C73C4E9003A9595 /* stack-views-exerciseUITests */,
 				2F331F7E1C73C4E8003A9595 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				2F331F8C1C73C4E8003A9595 /* Info.plist */,
 			);
 			path = "stack-views-exercise";
-			sourceTree = "<group>";
-		};
-		2F331F941C73C4E9003A9595 /* stack-views-exerciseTests */ = {
-			isa = PBXGroup;
-			children = (
-				2F331F951C73C4E9003A9595 /* stack_views_exerciseTests.swift */,
-				2F331F971C73C4E9003A9595 /* Info.plist */,
-			);
-			path = "stack-views-exerciseTests";
-			sourceTree = "<group>";
-		};
-		2F331F9F1C73C4E9003A9595 /* stack-views-exerciseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2F331FA01C73C4E9003A9595 /* stack_views_exerciseUITests.swift */,
-				2F331FA21C73C4E9003A9595 /* Info.plist */,
-			);
-			path = "stack-views-exerciseUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F331F961C73C4E9003A9595 /* stack_views_exerciseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F331FA11C73C4E9003A9595 /* stack_views_exerciseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
